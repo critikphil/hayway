@@ -1,0 +1,73 @@
+#home-page{
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+#home-page .page-content{
+    display: inline-block;
+    padding-top: 50px;
+}
+#home-page .banner-home {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+#home-page .banner-home2 {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+#home-page h1 {
+    color: #3F7E80;
+    font-size: 23px;
+    line-height: 26px;
+    margin: 20px 0 0;
+    max-width: 450px;
+    text-align: justify;
+}
+#home-page .p_block {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+#home-page .vertical-block {
+    display: inline-block;
+    float: left;
+    padding: 0 5%;
+    width: 40%;
+}
+#home-page .text_content1 {
+    font-size: 16px;
+    line-height: 26px;
+    margin: auto;
+    text-align: justify;
+}
+#home-page .img_content1 {
+    float: left;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    width: 100%;
+}
+#home-page .text_content2 {
+    font-size: 16px;
+    line-height: 26px;
+    margin: auto;
+    text-align: justify;
+}
+#home-page .img_content2 {
+    float: left;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    width: 100%;
+}
+#home-page .text_content2 h2{
+    line-height: 25px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+#home-page .text_content2 p{
+    line-height: 25px;
+}
+

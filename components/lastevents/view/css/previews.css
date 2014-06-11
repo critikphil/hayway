@@ -1,0 +1,42 @@
+#lastevents {
+    min-height: 400px;
+}
+#lastevents li{
+    float: left;
+    margin: 1% 5%;
+    width: 40%;
+}
+#lastevents li:hover{}
+#lastevents li a{
+    border-bottom: medium none;
+    display: inline-block;
+}
+#lastevents li a p.date{
+    color: #6F6F6F;
+    font-size: 0.7em;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0 0 10px;
+}
+#lastevents li a .block_img{
+    float: left;
+    width: 110px;
+}
+#lastevents li a .block_img img{
+    width: 100px;
+}
+#lastevents li a .block_text{}
+#lastevents li a .block_text h4{
+    color: #EF5930;
+    font-size: 0.7em;
+    font-weight: 600;
+    line-height: 0.7em;
+    margin-bottom: 5px;
+}
+#lastevents li a .block_text p{
+    color: #000000;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+}

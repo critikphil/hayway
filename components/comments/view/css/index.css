@@ -1,0 +1,105 @@
+/* 
+    Document   : display
+    Created on : 10 janv. 2014, 15:02:53
+    Author     : nicolascramail
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#comments {
+    text-align: left;
+    margin: auto;
+    max-width: 800px;
+    text-align: left;
+    width: 80%;
+}
+#comments .info{
+    font-size: 0.8em;
+    line-height: 30px;
+    margin: 10px 0 0;
+}
+#comments .comment{
+    background: none repeat scroll 0 0 #E8EDEC;
+    margin-bottom: 10px;
+    padding: 2%;
+    position: relative;
+}
+#comments .comment .user_name{
+    color: #3379BA;
+    font-size: 0.8em;
+    line-height: 23px;
+    margin: 0 60px;
+}
+#add_comment .user_name{
+    color: #3379BA;
+    font-size: 0.8em;
+    line-height: 23px;
+    margin: 0 60px;
+}
+#comments .comment .user_picture,
+#add_comment .user_picture{
+    float: left;
+}
+#comments .comment .content,
+#add_comment .comment .content{
+    font-size: 0.8em;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+#comments .comment .delete {
+    display: none;
+    font-size: 0.7em;
+    line-height: 14px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+#comments .comment:hover .delete{
+    display: block;
+}
+#add_comment{
+    background: none repeat scroll 0 0 #E8EDEC;
+    display: inline-block;
+    padding: 2%;
+    margin: auto;
+    max-width: 800px;
+    text-align: left;
+    width: 76%;
+}
+#add_comment .comment_block {
+    display: block;
+    width: 100%;
+}
+#add_comment .info{}
+#add_comment form{
+    margin-left: 70px;
+}
+#add_comment form label{}
+#add_comment form textarea{
+    display: block;
+    font-size: 18px;
+    margin: 15px 0;
+    min-height: 100px;
+    padding: 2%;
+    width: 96%;
+}
+#add_comment form .submit {
+    float: right;
+    font-size: 17px;
+    height: 35px;
+    margin-right: 1%;
+    padding: 0.3em 1.5em;
+}
+
+@media (max-width : 800px) {
+    #comments {
+        display: inline-block !important;
+        width: 100% !important;
+    }
+    #add_comment {
+        display: inline-block !important;
+        width: 96% !important;
+    }
+}

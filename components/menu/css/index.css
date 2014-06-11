@@ -1,0 +1,25 @@
+ul#menu {
+    margin: 0;
+    text-align: right;
+}
+ul#menu li{
+    display: inline-block;
+}
+ul#menu li a{
+    border-bottom: medium none;
+    border-top: 4px solid rgba(0, 0, 0, 0);
+    color: #000000;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    padding: 0 30px;
+}
+ul#menu li a:hover{
+    /*
+    background: none repeat scroll 0 0 #E0E0E0;
+    box-shadow: 0 0 5px #C0C0C0 inset;
+    */
+    color: #CF3910;
+    border-top: 4px solid #CF3910;
+}

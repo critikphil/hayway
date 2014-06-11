@@ -1,0 +1,104 @@
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+#footer
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 5px;
+    font-size: 0.8em;
+    margin-top: 10px;
+    padding: 3em 0 4em;
+    text-align: center;
+}
+
+#footer .footer_top {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    max-width: 1280px;
+}
+#footer .footer_top .footer_contact {
+    float: right;
+    width: 65%;
+}
+#footer .footer_top .footer_contact .footer_contact_logo {
+    float: left;
+    line-height: 8em;
+    width: 30%;
+}
+#footer .footer_top .footer_contact .footer_contact_logo img
+{
+    width: 90%;
+    vertical-align: middle;
+}
+#footer .footer_top .footer_contact .footer_contact_block h4{
+    color: #000000;
+    font-size: 1.2em;
+}
+#footer .footer_top .footer_contact .footer_contact_block{
+    display: inline-block;
+    text-align: left;
+    width: 70%;
+}
+#footer .footer_top .footer_contact .footer_contact_block p{
+    line-height: 1.4em;
+    margin: 0;
+    color: #000000;
+}
+#footer .footer_top .footer_contact .footer_contact_block div.fa{
+    float: left;
+    font-size: 1em;
+}
+#footer .footer_top .footer_contact .footer_contact_block .text_block{
+    margin-left: 50px;
+}
+#footer .footer_top .footer_contact .footer_contact_block .address{
+    float: left;
+    margin: 1.1em;
+    width: 40%;
+}
+#footer .footer_top .footer_contact .footer_contact_block .mail_phone {
+    float: left;
+    margin-top: 1.1em;
+    width: 40%;
+}
+#footer .footer_top .footer_contact .footer_contact_block .mail_phone .phone,
+#footer .footer_top .footer_contact .footer_contact_block .mail_phone .mail {
+    margin-bottom: 10px;
+}
+#footer .footer_top .footer_contact .footer_contact_block .mail_phone .phone p,
+#footer .footer_top .footer_contact .footer_contact_block .mail_phone .mail p {
+    line-height: 1.9em;
+}
+#footer .footer_top .keywords{
+    float: left;
+    width: 30%;
+}
+#footer .footer_top .keywords ul{
+    border-right: 1px solid;
+    display: inline-block;
+    margin: 0;
+    width: 32%;
+}
+#footer .footer_top .keywords ul li{
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+#footer .footer_bottom
+{
+    line-height: 1.25em;
+    margin: 20px auto;
+    max-width: 1280px;
+}
+
+#footer .footer_bottom p
+{
+    margin: 0 0 1em 0;
+}
+
+#footer .footer_bottom .menu
+{
+    margin: 0;
+}

@@ -1,0 +1,18 @@
+
+#title {
+    box-shadow: 0 0 5px #752536;
+    height: 117px;
+    left: 5%;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    
+}
+#title:hover {}
+#title img{
+    width: 190px;
+}
+#title h1 {
+    display: none;
+}
+#title h1 span {}

@@ -1,0 +1,63 @@
+
+#likes_and_followings{
+    border-left: 1px solid #DDDDDD;
+    float: right;
+    padding: 5px 0;
+    width: 180px;
+}
+#likes_and_followings .sub_block{
+    display: inline;
+}
+#fb_block{}
+#fb_block #fb_link{}
+#fb_block #fb_like{}
+#google_block{}
+#google_block #google_link{}
+#google_block #google_like{}
+#twitter_block {}
+#twitter_block #twitter_link {}
+#twitter_block #twitter_like {}
+#linkedin_block {}
+#linkedin_block #linkedin_link {}
+#linkedin_block #linkedin_like {}
+
+#fb_block,
+#google_block,
+#twitter_block,
+#linkedin_block{
+    display: inline-block;
+    height: 67px;
+    padding: 5px 10px;
+    position: relative;
+    width: 150px;
+}
+
+#fb_block #fb_link,
+#google_block #google_link,
+#twitter_block #twitter_link,
+#linkedin_block #linkedin_link {}
+    
+#fb_block #fb_link img,
+#google_block #google_link img,
+#twitter_block #twitter_link img,
+#linkedin_block #linkedin_link img {
+    transition-duration: 0.2s;
+    height: 60px;
+    width: 60px;
+}
+#fb_block #fb_link:hover img,
+#google_block #google_link:hover img,
+#twitter_block #twitter_link:hover img,
+#linkedin_block #linkedin_link:hover img {
+    transform: rotate(10deg);
+}
+
+#fb_block #fb_like,
+#google_block #google_like,
+#twitter_block #twitter_like,
+#linkedin_block #linkedin_like {
+    float: left;
+    padding: 0 10px;
+    width: 65px;
+    text-align: right;
+}

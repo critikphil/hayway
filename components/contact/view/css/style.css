@@ -1,0 +1,55 @@
+#intro p {
+    margin: auto;
+    max-width: 800px;
+    width: 80%;
+}    
+#contact-info p {
+    margin: 1em auto 0;
+    max-width: 800px;
+    width: 80%;
+}
+#contact-form .skype_button {}
+#contact-form .skype_button p{}
+#contact-form p{}
+#contact-form form{
+    padding: 20px 40px;
+}
+#contact-form .input_block {
+    margin-bottom: 20px;
+}
+#contact-form .input_block.half {
+    width: 49%;
+}
+#contact-form .input_block label{}
+#contact-form .input_block input{}
+#contact-form .input_block textarea{}
+#contact-form .submit{
+    margin-top: 30px;
+}
+#contact-form .error {}
+#contact-form .message_info {
+    background: none repeat scroll 0 0 #FFEFD5;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0 0 5px #DDDDDD;
+    margin-bottom: 20px;
+    padding: 20px 5%;
+}
+#contact-form .message_info img {
+    float: left;
+}
+#contact-form .message_info p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+#google_map_content {
+    display: block;
+    height: 300px;
+    margin: auto;
+    width: 90%;
+}
+.description_content {
+    margin: auto;
+    max-width: 800px;
+    width: 80%;
+}

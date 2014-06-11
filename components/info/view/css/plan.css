@@ -1,0 +1,26 @@
+#plan-page {margin: 5%;}
+#plan-page h2{}
+#plan-page ul.plan_list{margin: 5%;}
+#plan-page ul.plan_list li.plan_list_item{margin: 5%;}
+#plan-page ul.plan_list li.plan_list_item a{
+    color: #333333;
+    text-decoration: none;
+}
+#plan-page ul.plan_list li.plan_list_item a h3{}
+#plan-page ul.plan_list li.plan_list_item ul.plan_sublist{margin: 5%;}
+#plan-page ul.plan_list li.plan_list_item ul.plan_sublist li.plan_sublist_item{margin: 5%;}
+#plan-page ul.plan_list li.plan_list_item ul.plan_sublist li.plan_sublist_item a {
+    color: #333333;
+    text-decoration: none;
+}
+#plan-page ul.plan_list li.plan_list_item ul.plan_sublist li.plan_sublist_item a h4{}
+#plan-page ul.plan_list li.plan_list_item ul.plan_sublist li.plan_sublist_item ul.plan_subsublist{margin: 5%;}
+#plan-page ul.plan_list li.plan_list_item ul.plan_sublist li.plan_sublist_item ul.plan_subsublist li.plan_subsublist_item{margin: 5%;}
+#plan-page ul.plan_list li.plan_list_item ul.plan_sublist li.plan_sublist_item ul.plan_subsublist li.plan_subsublist_item a{
+    color: #333333;
+    text-decoration: none;
+}
+#plan-page ul.plan_list li.plan_list_item ul.plan_sublist li.plan_sublist_item ul.plan_subsublist li.plan_subsublist_item a h5{}
+#plan-page a:hover{
+    text-decoration: underline !important;
+}
