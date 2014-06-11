@@ -1,0 +1,1 @@
+<div class="fb-like" data-href="<?=$pageUrl?>" data-width="<?=$width?>" data-layout="<?=$layout?>" data-action="like" data-show-faces="<?=$faces?'true':'false'?>" data-share="<?=$share?'true':'false'?>"></div>
